@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from 'axios'
 
-const blogPostURL = 'http://52.3.233.12:8000/api/v1/blogs/'
+const blogPostURL = 'http://localhost:8000/api/v1/blogs/'
 
 const CreateBlogPost = ()=>{
     const [title, setTitle] = useState('')
